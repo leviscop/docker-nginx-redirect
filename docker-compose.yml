@@ -40,3 +40,5 @@ services:
       # optionally define the location for the nginx error log
       # if not set /dev/stderr is used
       #- SERVER_ERROR_LOG=/dev/null
+    networks:
+      - gateway

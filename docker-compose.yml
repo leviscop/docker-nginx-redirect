@@ -3,7 +3,7 @@ version: '2.3'
 services:
 
   redirect:
-    image: schmunk42/nginx-redirect
+    image: ghcr.io/leviscop/simple-redirect:main
     labels:
       - traefik.enable=true
       - traefik.http.middlewares.redirect-https.redirectscheme.scheme=https

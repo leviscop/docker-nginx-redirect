@@ -7,7 +7,7 @@ fi
 
 # set server name from optional ENV var
 if [ ! -n "$SERVER_NAME" ] ; then
-    SERVER_NAME='localhost'
+    SERVER_NAME='_'
 fi
 
 # set redirect code from optional ENV var
